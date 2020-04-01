@@ -32,6 +32,7 @@ use bash to generate directory for gin project
     │  ├─ main.go         //入口文件
 ```
 
+
 参考1：https://blog.csdn.net/XinLiangTalk/article/details/99670139
 
 参考2：www.gitee.com/zhouxiaozhu/gin-gen
