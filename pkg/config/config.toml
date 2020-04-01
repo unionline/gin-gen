@@ -1,0 +1,15 @@
+app_name = "go-gin-web"
+version = "1.0"
+port = 9870
+gin_mode = "debug"
+
+[mysql]
+addr = "localhost:3306"
+username = "tool"
+password = "admin123@tool"
+db_name = "tool"
+
+[redis]
+addr = "127.0.0.1:6379"
+password = ""
+db = 0

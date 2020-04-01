@@ -1,0 +1,36 @@
+{{define "redirect.html"}}
+    <html>
+    <head><title>404 Not Found</title></head>
+    <head>
+        <meta charset="UTF-8">
+        <title>{{.title}}</title>
+
+    </head>
+    <!--<img src="../../res/images/404.jpg">-->
+    <body bgcolor="white">
+    <div style="text-align: center;"><h1>404 Not Found</h1></div>
+    <hr>
+    <div style="text-align: center;">tool.unionine.top</div>
+    <div style="text-align: center;">Go To Home Page After <span id="countdown"></span> Seconds</div>
+    <script>
+        setTimeout(() => {
+            window.location.href = "../../index.html"
+        }, 3100)
+
+        var t = 3;
+        var time = document.getElementById("countdown");
+
+        function fun() {
+            t--;
+            time.innerHTML = t;
+            if (t <= 0) {
+                clearInterval(inter);
+            }
+        }
+
+        var inter = setInterval("fun()", 1000);
+
+    </script>
+    </body>
+    </html>
+{{end}}
