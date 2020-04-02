@@ -6,7 +6,7 @@
 */
 package main
 
-import "gin_tool/cmd"
+import "github.com/unionline/gin-gen/cmd"
 
 func main() {
 	cmd.Execute()
