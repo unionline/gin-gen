@@ -1,5 +1,21 @@
 # gin-gen
+
+### 介绍
 use bash to generate directory for gin project 
+生成gin api项目结构。
+> https://github.com/unionline/gin-gen.git
+
+#### 安装
+```shell script
+go get github.com/unionline/gin-gen
+```
+
+#### 生成项目
+```shell script
+cd YourGOPath/src/github.com/unionline/gin-gen
+go build main.go
+./gin-gen new <project-name>
+mv  <project-name> YourGOPath/src/
 
 ```
 ├─ Project Name
