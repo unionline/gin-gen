@@ -1,4 +1,4 @@
-module gin_tool
+module github.com/unionline/gin-gen
 
 go 1.13
 
