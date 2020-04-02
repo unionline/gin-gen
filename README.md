@@ -2,7 +2,7 @@
 
 ### 介绍
 use bash to generate directory for gin project 
-生成gin api项目结构。
+生成gin项目目录结构。
 > https://github.com/unionline/gin-gen.git
 
 #### 安装
