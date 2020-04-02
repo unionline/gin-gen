@@ -16,9 +16,8 @@ cd YourGOPath/src/github.com/unionline/gin-gen
 go build main.go
 ./gin-gen new <project-name>
 mv  <project-name> YourGOPath/src/
-
 ```
-├─ Project Name
+```├─ Project Name
     │  ├─ config          //配置文件
     │     ├── ...
     │  ├─ controllers     //控制器层
@@ -47,7 +46,6 @@ mv  <project-name> YourGOPath/src/
         │     ├── ...
     │  ├─ main.go         //入口文件
 ```
-
 
 参考1：https://blog.csdn.net/XinLiangTalk/article/details/99670139
 
