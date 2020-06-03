@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"{{.Appname}}/controllers"
+	"{{.Appname}}/internal/controllers"
 
 	"github.com/gin-gonic/gin"
 )

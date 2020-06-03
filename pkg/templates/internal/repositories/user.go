@@ -7,9 +7,9 @@
 package repositories
 
 import (
-	"{{.Appname}}/initializers/db"
-	"{{.Appname}}/models"
-	"{{.Appname}}/repositories/crud"
+	"{{.Appname}}/internal/initializers/db"
+	"{{.Appname}}/internal/models"
+	"{{.Appname}}/internal/repositories/crud"
 )
 
 var create crud.Create

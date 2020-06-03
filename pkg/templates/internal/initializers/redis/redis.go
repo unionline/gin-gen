@@ -1,7 +1,7 @@
 package redis
 
 import (
-	"{{.Appname}}/initializers/config"
+	"{{.Appname}}/internal/initializers/config"
 	"github.com/go-redis/redis"
 	"github.com/sirupsen/logrus"
 	"sync"

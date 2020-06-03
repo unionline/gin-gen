@@ -7,8 +7,8 @@
 package model
 
 import (
-	"{{.Appname}}/initializers/db"
-	"{{.Appname}}/models"
+	"{{.Appname}}/internal/initializers/db"
+	"{{.Appname}}/internal/models"
 )
 
 func Init() {

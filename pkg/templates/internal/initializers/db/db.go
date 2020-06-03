@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	"{{.Appname}}/initializers/config"
+	"{{.Appname}}/internal/initializers/config"
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 	"sync"

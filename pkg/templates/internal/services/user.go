@@ -1,8 +1,8 @@
 package services
 
 import (
-	"{{.Appname}}/models"
-	"{{.Appname}}/repositories"
+	"{{.Appname}}/internal/models"
+	"{{.Appname}}/internal/repositories"
 )
 
 // UserService ...

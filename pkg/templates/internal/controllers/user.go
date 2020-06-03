@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"{{.Appname}}/services"
-	"{{.Appname}}/utils"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"{{.Appname}}/internal/services"
+	"{{.Appname}}/pkg/utils"
 )
 
 var userService *services.UserService

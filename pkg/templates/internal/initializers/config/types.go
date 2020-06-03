@@ -6,7 +6,7 @@ type Config struct {
 	Version string `toml:"version"`
 	Port    int    `toml:"port"`
 	GinMode string `toml:"gin_mode"`
-	
+
 	MySQL MySQL `toml:"mysql"`
 	Redis Redis `toml:"redis"`
 }

@@ -7,7 +7,7 @@
 package crud
 
 import (
-	"{{.Appname}}/models"
+	"{{.Appname}}/internal/models"
 	"github.com/jinzhu/gorm"
 )
 

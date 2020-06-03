@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"{{.Appname}}/initializers"
-	"{{.Appname}}/initializers/config"
-	"{{.Appname}}/routers"
+	"{{.Appname}}/internal/initializers"
+	"{{.Appname}}/internal/initializers/config"
+	"{{.Appname}}/internal/routers"
 )
 
 func main() {

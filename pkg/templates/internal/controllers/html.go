@@ -8,10 +8,10 @@ package controllers
 
 import (
 	"fmt"
-	"{{.Appname}}/utils"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strings"
+	"{{.Appname}}/pkg/utils"
 )
 
 func Html(ctx *gin.Context) {
